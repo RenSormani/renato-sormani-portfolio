@@ -15,7 +15,7 @@ import TrackVisibility from "react-on-screen";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 const url1 = "https://github.com/RenSormani/brewdog-app";
-const url2 = "https://github.com/RenSormani?tab=repositories";
+const url2 = "https://github.com/RenSormani/jrd-electrical-ltd";
 const url3 = "https://github.com/RenSormani/snake";
 const url4 = "https://github.com/RenSormani/hostile-aliens";
 const url5 = "https://github.com/RenSormani/calculator_project";
