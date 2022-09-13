@@ -46,7 +46,7 @@ const Skills = () => {
                 in suggesting my experience is varied. As such I have acquired
                 competencies for all situations. Take a peek at my CV to see
                 what's what... </p> 
-                <p><a href="https://drive.google.com/file/d/1k3Z9G3DIbpblTZ8Wp2NqLMMFccVBHBf8/view?usp=sharing" target="_blank">   <ArrowRightCircle size={30} /></a></p>
+                <p><a href="https://drive.google.com/file/d/1BucIfl5rskdq-A3LmemUq8-t3XVDSZ-_/view?usp=sharing" target="_blank">   <ArrowRightCircle size={30} /></a></p>
               
               <Carousel
                 responsive={responsive}
