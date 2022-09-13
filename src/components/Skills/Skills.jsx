@@ -44,7 +44,7 @@ const Skills = () => {
                 prior experience as a journalist, and most recently as an
                 Academic Mentor for Maths GCSE students, you wouldn't be wrong
                 in suggesting my experience is varied. As such I have acquired
-                competencies for all situations. Take a peek at my CV to see
+                competencies for all situations. Take a quick peek at my CV to see
                 what's what... </p> 
                 <p><a href="https://drive.google.com/file/d/1BucIfl5rskdq-A3LmemUq8-t3XVDSZ-_/view?usp=sharing" target="_blank">   <ArrowRightCircle size={30} /></a></p>
               
