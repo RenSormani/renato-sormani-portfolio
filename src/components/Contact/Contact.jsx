@@ -66,7 +66,7 @@ const Contact = () => {
               <h2>Get In Touch</h2>
               <form
                 target="_blank"
-                action="https://formsubmit.co/renato.sormani@gmail.com"
+                action="https://formsubmit.co/436c61e5457bb41446867c7accff800d"
                 method="POST"
               >
                 <div className="form-group">
