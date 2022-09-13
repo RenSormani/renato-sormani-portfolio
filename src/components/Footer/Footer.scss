@@ -1,0 +1,29 @@
+.footer {
+  padding: 50px 0 0 0;
+  background-color: #2e2e2e;
+}
+
+.footer img {
+  width: 15%;
+}
+
+.logo {
+  padding-bottom: 50px;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .footer {
+    .logo-box {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

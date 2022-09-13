@@ -1,0 +1,114 @@
+.banner {
+  margin-top: 0;
+  padding: 250px 0 150px 0;
+  background: linear-gradient(to bottom, black, #15151530);
+}
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, gray -5.91%, black 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.banner p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+.banner img {
+  animation: updown 3s linear infinite;
+  width: 70%;
+}
+.banner a {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(80px);
+  }
+  100% {
+    transform: translateX(-5px);
+  }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+@media screen and (max-width: 775px) {
+  .banner {
+    padding: 150px 0 150px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner {
+    padding: 90px 0 150px 0;
+  }
+
+  .banner .tagline {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .banner {
+    .text-intro {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      h1 {
+        font-size: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      p {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+    button {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
