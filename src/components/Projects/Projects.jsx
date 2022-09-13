@@ -107,24 +107,24 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  
                   <h2>My Work</h2>
                   <div className="project-box">
-                  <p>
-                    What's a portfolio without a few examples of work? Well, not
-                    a portfolio for one. So, without further ado, I present to
-                    you some of my recent projects. Click on the desired image
-                    to get magically transported to my Github page to see the
-                    project in full. Alternatively, click the arrow to go to my
-                    Github page.</p>
+                    <p>
+                      What's a portfolio without a few examples of work? Well,
+                      not a portfolio for one. So, without further ado, I
+                      present to you some of my recent projects. Click on the
+                      desired image to get magically transported to my Github
+                      page to see the project in full. Alternatively, click the
+                      arrow to go to my Github page.
+                    </p>
+                  </div>
+                  <div className="logo-container">
+                    <div className="git-logo">
+                      <a href="https://github.com/RenSormani" target="_blank">
+                        {" "}
+                        <ArrowRightCircle size={30} />
+                      </a>
                     </div>
-                    <div className="logo-container">
-                      <div className="git-logo">
-                        <a href="https://github.com/RenSormani" target="_blank">
-                          {" "}
-                          <ArrowRightCircle size={30} />
-                        </a>
-                      </div>            
                   </div>
 
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -168,8 +168,8 @@ export const Projects = () => {
                           Currently in development is a website commissioned by
                           a new local icecream parlour, Sorella's. The site
                           itself will be built in React and will showcase the
-                          company's signature products. Watch this space for delicious
-                          icecream...
+                          company's signature products. Watch this space for
+                          delicious icecream...
                         </p>
 
                         <Row className="development-row">
