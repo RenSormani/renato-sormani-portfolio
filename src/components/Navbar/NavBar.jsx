@@ -75,7 +75,7 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a
-                  href="https://www.linkedin.com/in/renato-sormani-822081224/"
+                  href="www.linkedin.com/in/renato-sormani-87a56b68"
                   target="_blank"
                 >
                   <img src={navIcon1} alt="" />
