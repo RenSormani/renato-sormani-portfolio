@@ -1,5 +1,5 @@
 # My React Portfolio Page
-I had already created a portfolio page back at the beginning of my _nology course to be come a software developer, however that was using just HTML and css. Since then I have learnt how to use React and JavaScript, so I wanted to update my portfolio using those tools. 
+I had already created a portfolio page back at the beginning of my _nology course to become a software developer, however that was using just HTML and css. Since then I have learnt how to use React and JavaScript, so I wanted to update my portfolio using those tools. 
 
 # What I used:
 •	React
