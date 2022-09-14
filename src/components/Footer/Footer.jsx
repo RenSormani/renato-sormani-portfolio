@@ -17,7 +17,7 @@ const Footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a
-                href="https://www.linkedin.com/in/renato-sormani-822081224/"
+                href="https://www.linkedin.com/in/renato-sormani-87a56b68"
                 target="_blank"
               >
                 <img src={navIcon1} alt="Icon" />
