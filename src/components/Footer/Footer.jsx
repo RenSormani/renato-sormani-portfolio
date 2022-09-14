@@ -32,7 +32,7 @@ const Footer = () => {
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Website design by Renato Sormani. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
