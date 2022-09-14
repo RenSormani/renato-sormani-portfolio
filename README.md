@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# My React Portfolio Page
+I had already created a portfolio page back at the beginning of my _nology course to become a software developer, however that was using just HTML and css. Since then I have learnt how to use React and JavaScript, so I wanted to update my portfolio using those tools. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# What I used:
+•	React
+•	JavaScript
+•	CSS
+•	SCSS
+•	GitHub
 
-## Available Scripts
+# The Design
+The design of my new portfolio wasn't dissimilar to that of my previous portfolio. I kept the black background and the white font, as well as the logo and the personal image at the top of the homepage. WHile I did eliminate the arrows that I had on the original, I pretty much kept the layout the same, with the hero section at the top, followed by an about/skills section (with link to CV and a fun carousel), a projects section and lastly the contact section.
 
-In the project directory, you can run:
+# The Process
+When it came to redesigning my portfolio I had already decided that I would be using React to create the single page application. The design itself was based largely on the original portfolio, but coupled with the use of such libraries as React Bootstrap (which aided with the responsiveness and a snazzy new navbar) and animate, it gave the website a more professional/fun feel.
 
-### `npm start`
+# The Functionality
+•	The portfolio page itself is pretty starightforward, given it is a single page application. The navbar provides the links to various points on the page, with the logo acting as a home link as well. The social media links also link to my social media pages away from the site.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+•	The banner section now has a ticker headline which scrolls between "Web Developer", "Web Designer" and "UI/UX Designer" for an added element of fun, and my image scrollls horizontally. The "Lets connect" button will scroll you down to the contact form at the bottom of the page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+•	In the Experience section I have provided a brief synopsis of my working career to date, along with a fun interactive carousel. Click on the arrow under the text and it will link to my full CV.
 
-### `npm test`
+•	The next section is the "My Work" (projects) section. Instead of CSS Grid, I used Bootstrap to position the images, which if clicked upon will take ypu through to the relevant project on my Github. I also created a tab section with three tabs that allows you to see "my Projects", "More Projects" and "Projects in development".
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+•	Finally we have the Contact page, which includes a fully functional contact form and an icon which uses the animate library to bounce into shot.
 
-### `npm run build`
+# Renato Sormani Portfolio
+![Ren-portfolio-new](https://user-images.githubusercontent.com/93707792/190129758-eb6bf33e-caba-44c9-be47-3008fab04a2e.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
