@@ -11,7 +11,9 @@ export const ProjectCard = ({ title, description, imgUrl, url }) => {
           <a href={url}>
             <h4>{title}</h4>{" "}
           </a>
-          <span>{description}</span>
+          <div className="proj-txtx-copy">
+          <span >{description}</span>
+          </div>
         </div>
       </div>
     </Col>

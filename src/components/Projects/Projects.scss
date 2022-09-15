@@ -24,7 +24,7 @@
   color: white;
 
   :hover {
-    color: gray;
+    color: rgb(219, 216, 216);
   }
 }
 
@@ -117,22 +117,35 @@
     transition: 0.5s ease-in-out;
     opacity: 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .proj-imgbx:hover .proj-txtx {
     top: 50%;
     opacity: 1;
   }
   .proj-txtx h4 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1.1em;
   }
   .proj-txtx span {
-    font-style: italic;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 0.8px;
+
+  }
+  .proj-txtx-copy {
+    
+
+    // border-radius: 1rem;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #b8b8b84c;
   }
   .background-image-right {
     top: 20%;

@@ -29,7 +29,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "What's Your Brew, Dog?",
-      description: "Punk API manipulation in React",
+      description: "What better way to showcase API manipulation than with the Punk API and their catalogue of Brewdog beers? This React app allows you to search the entire back catalogue of beers, or pick one lucky beverage using the beer randomiser.",
       imgUrl: projImg1,
       url: url1,
     },
@@ -88,7 +88,7 @@ export const Projects = () => {
 
   const projects3 = [
     {
-      title: "Icecream... It Makes Me Happy",
+      title: "I scream, you scream...",
       description: "A React website for a local icecream parlour",
       imgUrl: projImg10,
       url: url10,
@@ -113,9 +113,9 @@ export const Projects = () => {
                       What's a portfolio without a few examples of work? Well,
                       not a portfolio for one. So, without further ado, I
                       present to you some of my recent projects. Click on the
-                      desired image to get magically transported to my Github
+                      desired project title and get zoomed to my Github
                       page to see the project in full. Alternatively, click the
-                      arrow to go to my Github page.
+                      arrow to go to my Github page and see all my work.
                     </p>
                   </div>
                   <div className="logo-container">
@@ -140,7 +140,7 @@ export const Projects = () => {
                         <Nav.Link eventKey="second">More projects...</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">In development...</Nav.Link>
+                        <Nav.Link eventKey="third">In progress...</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
