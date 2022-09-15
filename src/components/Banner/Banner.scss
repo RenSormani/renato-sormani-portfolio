@@ -2,6 +2,10 @@
   margin-top: 0;
   padding: 250px 0 150px 0;
   background: linear-gradient(to bottom, black, #15151530);
+
+  .prog-logos {
+    margin-left: -5px;
+      }
 }
 .banner .tagline {
   font-weight: 700;
@@ -10,7 +14,7 @@
   background: linear-gradient(90.21deg, gray -5.91%, black 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   display: inline-block;
 }
 .banner h1 {
@@ -28,6 +32,32 @@
   line-height: 1.5em;
   width: 96%;
 }
+
+.prog-logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  width: 75%;
+  margin-left: 14px;
+
+    .prog-logos-box{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  .element {
+    font-size: 25px;
+    color: #b8b8b8;
+  }
+
+  p {
+    font-size: 8px;
+    color: #b8b8b8;
+  }
+    }
+}
+
 .banner button {
   color: #fff;
   font-weight: 700;
@@ -77,9 +107,29 @@
 }
 
 @media screen and (max-width: 575px) {
+
   .banner {
     padding: 90px 0 150px 0;
+
+    .prog-logos {
+      margin-left: 14px;
+        
+      .prog-logos-box{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+    
+      .element {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 6px;
+      }
+    }  
   }
+}
 
   .banner .tagline {
     margin-left: 15px;
@@ -105,8 +155,8 @@
       }
     }
     button {
-      margin-top: 20px;
-      margin-bottom: 30px;
+      margin-top: 40px;
+      margin-bottom: 50px;
       padding-left: 15px;
       padding-right: 15px;
     }

@@ -5,7 +5,23 @@ import "./Banner.scss";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import logo from "../../assets/img/main-image.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaReact } from 'react-icons/fa';
+import { FaJsSquare } from 'react-icons/fa';
+import { FaSass } from 'react-icons/fa';
+import { FaNodeJs } from 'react-icons/fa';
 
+import { SiFirebase, SiHtml5, SiCss3 } from "react-icons/si";
+
+const element = <FaReact />;
+const element2 = <FaJsSquare />;
+const element3 = <SiFirebase />;
+const element4 = <SiHtml5 />;
+const element5 = <FaSass />;
+const element6 = <SiCss3 />;
+const element7 = <FaNodeJs />;
+
+<FontAwesomeIcon icon="fa-brands fa-react" />
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -73,20 +89,51 @@ const Banner = () => {
                         </span>
                       </div>
                     </h1>
+                  
                     <p>
                       See that floating head there? Yep, that's me. A budding
                       software developer/web designer. I am currently studying
                       at _nology and learning the ins and outs of everything
                       web-related. Here are just some of the technolgies I have
-                      been working with: JavaScript (ES6), React, Firebase,
-                      SCSS, HTML, APIs and more.
-                    </p>
+                      been working with:</p>
                   </div>
+                  <div className="prog-logos col-lg-8 col-xs-12 col-centered">
+                    <div className="prog-logos-box">
+                      <div className="element">{element}</div>
+                      <p>ReactJS</p>
+                    </div>
+                    <div className="prog-logos-box">
+                    <div className="element">{element2}</div>
+                      <p>JavaScript</p>
+                    </div>
+                    <div className="prog-logos-box">
+                    <div className="element">{element3}</div>
+                      <p>Firebase</p>
+                    </div>
+                    <div className="prog-logos-box">
+                    <div className="element">{element4}</div>
+                      <p>HTML</p>
+                    </div>
+                    <div className="prog-logos-box">
+                    <div className="element">{element5}</div>
+                      <p>Sass</p>
+                    </div>
+                    <div className="prog-logos-box">
+                    <div className="element">{element6}</div>
+                      <p>CSS</p>
+                    </div>
+                    <div className="prog-logos-box">
+                    <div className="element">{element7}</div>
+                      <p>Node</p>
+                    </div>
+                  </div>
+                
                   <button>
                     <a href="#connect">
                       Let’s Connect <ArrowRightCircle size={25} />
                     </a>
                   </button>
+                  
                 </div>
               )}
             </TrackVisibility>

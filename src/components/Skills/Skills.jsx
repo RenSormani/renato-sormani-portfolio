@@ -12,7 +12,6 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -46,7 +45,7 @@ const Skills = () => {
                 in suggesting my experience is varied. As such I have acquired
                 competencies for all situations. Take a quick peek at my CV to see
                 what's what... </p> 
-                <p><a href="https://drive.google.com/file/d/1BucIfl5rskdq-A3LmemUq8-t3XVDSZ-_/view?usp=sharing" target="_blank">   <ArrowRightCircle size={30} /></a></p>
+                <p><a href="https://drive.google.com/file/d/1BucIfl5rskdq-A3LmemUq8-t3XVDSZ-_/view?usp=sharing" target="_blank" rel="noreferrer">   <ArrowRightCircle size={30} /></a></p>
               
               <Carousel
                 responsive={responsive}
@@ -54,19 +53,19 @@ const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="restaurant" />
                   <h5>Restaurant Owner</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" className="journo" />
+                  <img src={meter2} alt="journalist" className="journo" />
                   <h5>Journalist</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter3} alt="teacher" />
                   <h5>Academic Mentor</h5>
                 </div>
                 <div className="item">
-                  <img src={meter4} alt="Image" />
+                  <img src={meter4} alt="graduate" />
                   <h5>_nology Graduate</h5>
                 </div>
               </Carousel>
@@ -74,7 +73,6 @@ const Skills = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className="background-image-left" src={colorSharp} /> */}
     </section>
   );
 };
