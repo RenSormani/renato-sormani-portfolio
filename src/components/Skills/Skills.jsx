@@ -47,12 +47,12 @@ const Skills = () => {
                 what's what... </p> 
                 <p>
                 <div className='development-row'>
-                <button>
+                
                   <a href="https://drive.google.com/file/d/1BucIfl5rskdq-A3LmemUq8-t3XVDSZ-_/view?usp=sharing" target="_blank">
                         {" "}
                       To my CV <ArrowRightCircle size={30} />
                     </a>
-                  </button>
+                  
                   </div>
                 </p>
               <Carousel
