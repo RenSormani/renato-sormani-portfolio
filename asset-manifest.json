@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/renato-sormani-portfolio/static/css/main.45ddd181.css",
-    "main.js": "/renato-sormani-portfolio/static/js/main.ab01820e.js",
+    "main.css": "/renato-sormani-portfolio/static/css/main.bec1b47f.css",
+    "main.js": "/renato-sormani-portfolio/static/js/main.6df85b71.js",
     "static/js/787.a2cb61a6.chunk.js": "/renato-sormani-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/main-image.svg": "/renato-sormani-portfolio/static/media/main-image.e64dc7d1d2133f3ac2e2ab11a3efac72.svg",
     "static/media/morse-new.jpg": "/renato-sormani-portfolio/static/media/morse-new.b2cd7b069902884554c6.jpg",
-    "static/media/icecream.jpg": "/renato-sormani-portfolio/static/media/icecream.9b29aaa502a73525decc.jpg",
     "static/media/brewdog.jpg": "/renato-sormani-portfolio/static/media/brewdog.b43939018489f00df6c7.jpg",
     "static/media/new-snake.jpg": "/renato-sormani-portfolio/static/media/new-snake.f040ba77985466a08e1e.jpg",
-    "static/media/hostile-aliens-v1.png": "/renato-sormani-portfolio/static/media/hostile-aliens-v1.3953033dde9ab16ac2d7.png",
     "static/media/Electrical-1.jpg": "/renato-sormani-portfolio/static/media/Electrical-1.201bcddc6e6160b3bcc4.jpg",
     "static/media/calculator.jpg": "/renato-sormani-portfolio/static/media/calculator.41b9f26ac6c9e77fa413.jpg",
-    "static/media/portfolio-original.jpg": "/renato-sormani-portfolio/static/media/portfolio-original.e68cf7ede2f118825459.jpg",
     "static/media/CentraNo2-Bold.ttf": "/renato-sormani-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/renato-sormani-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/renato-sormani-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/ticket.png": "/renato-sormani-portfolio/static/media/ticket.bfc30a34c3c49102e063.png",
     "static/media/hostile-aliens.jpg": "/renato-sormani-portfolio/static/media/hostile-aliens.b07586bbb3dd82eaf721.jpg",
     "static/media/revicons.eot": "/renato-sormani-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/renato-sormani-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/meter5.svg": "/renato-sormani-portfolio/static/media/meter5.70b14d2662f5ffad979d6bffea7d831f.svg",
     "static/media/revicons.woff": "/renato-sormani-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/icecream-new.svg": "/renato-sormani-portfolio/static/media/icecream-new.fc7093f4906cbf5747c076ab4662c68f.svg",
     "static/media/meter6.svg": "/renato-sormani-portfolio/static/media/meter6.2129767673eec3639841e01ecb49d9a0.svg",
     "static/media/Logo1.svg": "/renato-sormani-portfolio/static/media/Logo1.cfc0e51db277c85854bd309c6662a420.svg",
     "static/media/meter-4.svg": "/renato-sormani-portfolio/static/media/meter-4.2c6ab598f68d7b2d917163fa9d22f621.svg",
@@ -30,12 +27,12 @@
     "static/media/meter7.svg": "/renato-sormani-portfolio/static/media/meter7.4e9c17a346578902b4ae6ee36d11e7fa.svg",
     "static/media/nav-icon1.svg": "/renato-sormani-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/renato-sormani-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.45ddd181.css.map": "/renato-sormani-portfolio/static/css/main.45ddd181.css.map",
-    "main.ab01820e.js.map": "/renato-sormani-portfolio/static/js/main.ab01820e.js.map",
+    "main.bec1b47f.css.map": "/renato-sormani-portfolio/static/css/main.bec1b47f.css.map",
+    "main.6df85b71.js.map": "/renato-sormani-portfolio/static/js/main.6df85b71.js.map",
     "787.a2cb61a6.chunk.js.map": "/renato-sormani-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45ddd181.css",
-    "static/js/main.ab01820e.js"
+    "static/css/main.bec1b47f.css",
+    "static/js/main.6df85b71.js"
   ]
 }
