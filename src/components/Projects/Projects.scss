@@ -34,7 +34,7 @@
     padding-bottom: 40px;
   }
   .git-logo {
-    max-width: 4%;
+    max-width: 30%;
   }
   .project .nav.nav-pills {
     width: 72%;
@@ -161,6 +161,26 @@
     justify-content: center;
   }
 
+  .project button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .project button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .project button:hover svg {
+    margin-left: 25px;
+  }
+
+
 
   @media screen and (max-width: 775px) {
     .project .nav.nav-pills .nav-link {
@@ -170,7 +190,7 @@
 
   @media screen and (max-width: 575px) {
     .project .nav.nav-pills .nav-link {
-      font-size: 8px;
+      font-size: 7px;
     }
     .project {
       margin-top: -50px;

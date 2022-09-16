@@ -7,10 +7,8 @@ import projImg3 from "../../assets/img/hostile-aliens.jpg";
 import projImg4 from "../../assets/img/Electrical-1.jpg";
 import projImg5 from "../../assets/img/calculator.jpg";
 import projImg6 from "../../assets/img/morse-new.jpg";
-import projImg7 from "../../assets/img/ticket.png";
-import projImg8 from "../../assets/img/hostile-aliens-v1.png";
-import projImg9 from "../../assets/img/portfolio-original.jpg";
-import projImg10 from "../../assets/img/icecream.jpg";
+import projImg8 from "../../assets/img/github.png";
+import projImg10 from "../../assets/img/icecream-new.svg";
 import TrackVisibility from "react-on-screen";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
@@ -20,76 +18,64 @@ const url3 = "https://github.com/RenSormani/snake";
 const url4 = "https://github.com/RenSormani/hostile-aliens";
 const url5 = "https://github.com/RenSormani/calculator_project";
 const url6 = "https://github.com/RenSormani/morseCodeTraslator";
-const url7 = "https://github.com/RenSormani/ticket-tracker";
-const url8 = "https://github.com/RenSormani/hostile-aliens-v1";
-const url9 = "https://github.com/RenSormani/renato-portfolio";
+const url8 = "https://github.com/RenSormani/";
 const url10 = "https://github.com/RenSormani?tab=repositories";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "What's Your Brew, Dog?",
-      description: "What better way to showcase API manipulation than with the Punk API and their catalogue of Brewdog beers? This React app allows you to search the entire back catalogue of beers, or pick one lucky beverage using the beer randomiser.",
+      title: "What's Your Brew, Dog",
+      description: "This React app allows you to search the entire back catalogue of Brewdog beers thanks to some nifty API manipulation.",
       imgUrl: projImg1,
       url: url1,
     },
     {
       title: "JRD Electrical Ltd",
-      description: "Real-world website redesign using react",
+      description: "Commissioned by JRD Electrical Ltd to redesign their website. React, JavaScript and Sass were the order of the day!",
       imgUrl: projImg4,
       url: url2,
     },
     {
-      title: "Feed The Snake",
-      description: "Using JavaScript to recreate a classic game",
+      title: "It'sssssssss Snake!",
+      description: "Remember Snake on the Nokia 3310? Well I redesigned it using CSS, (minimal) HTML and JavaScript. Game on!",
       imgUrl: projImg2,
       url: url3,
     },
     {
       title: "Hostile Aliens v2",
-      description: "JavaScript game development",
+      description: "An interesting desktop version of Space Invaders created with all my JavaScript and Sass know-how. The invasion has begun!",
       imgUrl: projImg3,
       url: url4,
     },
     {
       title: "Calculate This...",
-      description: "Fully functioning JavaScript calculator",
+      description: "What's that you say? A fully functioning calculator created and designed using HTML, CSS and JavaScript? Sums it up nicely!",
       imgUrl: projImg5,
       url: url5,
     },
     {
       title: "Use The Morse, Luke!",
-      description: "HTML, CSS & JavaScript put to good use",
+      description: "We love code. Even Morse Code. This little snazzy Morse Coder uses JavaScript to handle all the heavy lifting. ",
       imgUrl: projImg6,
       url: url6,
     },
   ];
 
   const projects2 = [
+    
     {
-      title: "Tickets, Please!",
-      description: "A ticket tracker created using React",
-      imgUrl: projImg7,
-      url: url7,
-    },
-    {
-      title: "Hostile Aliens v1",
-      description: "Original design for Hostile Aliens",
+      title: "My GitHub Page...",
+      description: "Head over to my GitHub for even more projects, including ticket trackers, games and my original portfolio made from HTML and CSS.",
       imgUrl: projImg8,
       url: url8,
     },
-    {
-      title: "In the beginning was...",
-      description: "My original portfolio built using HTML & CSS",
-      imgUrl: projImg9,
-      url: url9,
-    },
+   
   ];
 
   const projects3 = [
     {
       title: "I scream, you scream...",
-      description: "A React website for a local icecream parlour",
+      description: "Currently in development is a website commissioned by a new local icecream parlour, Sorella's. The site itself will be built in React and will showcase the company's signature products.",
       imgUrl: projImg10,
       url: url10,
     },
@@ -113,18 +99,19 @@ export const Projects = () => {
                       What's a portfolio without a few examples of work? Well,
                       not a portfolio for one. So, without further ado, I
                       present to you some of my recent projects. Click on the
-                      desired project title and get zoomed to my Github
+                      desired project title and get zoomed to its GitHub
                       page to see the project in full. Alternatively, click the
-                      arrow to go to my Github page and see all my work.
+                      arrow to go to my GitHub page and see all my work.
                     </p>
                   </div>
                   <div className="logo-container">
-                    <div className="git-logo">
-                      <a href="https://github.com/RenSormani" target="_blank">
+
+                  <button>
+                  <a href="https://github.com/RenSormani" target="_blank">
                         {" "}
-                        <ArrowRightCircle size={30} />
-                      </a>
-                    </div>
+                      To my GitHub <ArrowRightCircle size={30} />
+                    </a>
+                  </button>
                   </div>
 
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -134,13 +121,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Projects</Nav.Link>
+                        <Nav.Link eventKey="first">PROJECTS</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">More projects...</Nav.Link>
+                        <Nav.Link eventKey="second">MORE PROJECTS</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">In progress...</Nav.Link>
+                        <Nav.Link eventKey="third">IN PROGRESS...</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -157,21 +144,13 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <Row>
+                        <Row className="development-row">
                           {projects2.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          Currently in development is a website commissioned by
-                          a new local icecream parlour, Sorella's. The site
-                          itself will be built in React and will showcase the
-                          company's signature products. Watch this space for
-                          delicious icecream...
-                        </p>
-
                         <Row className="development-row">
                           {projects3.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
