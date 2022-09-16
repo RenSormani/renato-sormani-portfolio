@@ -53,6 +53,30 @@
     z-index: -4;
   }
 
+  .development-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skill button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .skill button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .skill button:hover svg {
+    margin-left: 25px;
+  }
+
   @media screen and (max-width: 575px) {
     .skill {
       margin-top: -100px;
