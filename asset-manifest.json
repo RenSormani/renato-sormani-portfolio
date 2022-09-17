@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/renato-sormani-portfolio/static/css/main.a21ce71e.css",
-    "main.js": "/renato-sormani-portfolio/static/js/main.dc4cf930.js",
+    "main.js": "/renato-sormani-portfolio/static/js/main.4ee7109d.js",
     "static/js/787.a2cb61a6.chunk.js": "/renato-sormani-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/main-image.svg": "/renato-sormani-portfolio/static/media/main-image.e64dc7d1d2133f3ac2e2ab11a3efac72.svg",
     "static/media/morse-new.jpg": "/renato-sormani-portfolio/static/media/morse-new.b2cd7b069902884554c6.jpg",
@@ -28,11 +28,11 @@
     "static/media/nav-icon1.svg": "/renato-sormani-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/renato-sormani-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.a21ce71e.css.map": "/renato-sormani-portfolio/static/css/main.a21ce71e.css.map",
-    "main.dc4cf930.js.map": "/renato-sormani-portfolio/static/js/main.dc4cf930.js.map",
+    "main.4ee7109d.js.map": "/renato-sormani-portfolio/static/js/main.4ee7109d.js.map",
     "787.a2cb61a6.chunk.js.map": "/renato-sormani-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a21ce71e.css",
-    "static/js/main.dc4cf930.js"
+    "static/js/main.4ee7109d.js"
   ]
 }
