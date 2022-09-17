@@ -74,8 +74,8 @@ export const Projects = () => {
 
   const projects3 = [
     {
-      title: "I scream, you scream...",
-      description: "Currently in development is a website commissioned by a new local icecream parlour, Sorella's. The site itself will be built in React and will showcase the company's signature products.",
+      title: "The Ice Is Right!",
+      description: "I am currently working on a website for a new icecream parlour in the area called Sorella's. Watch this space...",
       imgUrl: projImg10,
       url: url10,
     },
