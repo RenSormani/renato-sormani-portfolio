@@ -7,7 +7,7 @@ import projImg3 from "../../assets/img/hostile-aliens.jpg";
 import projImg4 from "../../assets/img/Electrical-1.jpg";
 import projImg5 from "../../assets/img/calculator.jpg";
 import projImg6 from "../../assets/img/morse-new.jpg";
-import projImg8 from "../../assets/img/github.png";
+import projImg8 from "../../assets/img/github-logo.jpg";
 import projImg10 from "../../assets/img/icecream-new.svg";
 import TrackVisibility from "react-on-screen";
 import { ArrowRightCircle } from "react-bootstrap-icons";
