@@ -5,7 +5,7 @@ import projImg1 from "../../assets/img/brewdog.jpg";
 import projImg2 from "../../assets/img/new-snake.jpg";
 import projImg3 from "../../assets/img/hostile-aliens.jpg";
 import projImg4 from "../../assets/img/Electrical-1.jpg";
-import projImg5 from "../../assets/img/calculator.jpg";
+import projImg5 from "../../assets/img/Rendle.jpg";
 import projImg6 from "../../assets/img/morse-new.jpg";
 import projImg8 from "../../assets/img/github-logo.jpg";
 import projImg10 from "../../assets/img/icecream-new.svg";
@@ -16,7 +16,7 @@ const url1 = "https://github.com/RenSormani/brewdog-app";
 const url2 = "https://github.com/RenSormani/jrd-electrical-ltd";
 const url3 = "https://github.com/RenSormani/snake";
 const url4 = "https://github.com/RenSormani/hostile-aliens";
-const url5 = "https://github.com/RenSormani/calculator_project";
+const url5 = "https://github.com/RenSormani/wordle-clone";
 const url6 = "https://github.com/RenSormani/morseCodeTraslator";
 const url8 = "https://github.com/RenSormani/";
 const url10 = "https://github.com/RenSormani?tab=repositories";
@@ -48,11 +48,17 @@ export const Projects = () => {
       url: url4,
     },
     {
-      title: "Calculate This...",
-      description: "What's that you say? A fully functioning calculator created and designed using HTML, CSS and JavaScript? Sums it up nicely!",
+      title: "Oh My Word",
+      description: "What's that? A full-on clone of Wordle - the most popular word-based game around? As the kids would say: word!",
       imgUrl: projImg5,
       url: url5,
     },
+    // {
+    //   title: "Calculate This...",
+    //   description: "What's that you say? A fully functioning calculator created and designed using HTML, CSS and JavaScript? Sums it up nicely!",
+    //   imgUrl: projImg5,
+    //   url: url5,
+    // },
     {
       title: "Use The Morse, Luke!",
       description: "We love code. Even Morse Code. This little snazzy Morse Coder uses JavaScript to handle all the heavy lifting. ",
