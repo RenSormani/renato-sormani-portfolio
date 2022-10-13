@@ -4,6 +4,19 @@
     background: linear-gradient(to bottom, #15151530, black,
     #15151530);
   }
+
+  .project-box {
+    display: flex;
+    flex-direction: column;
+    background: #4f4f4ffd;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+
+  }
+
   .project h2 {
       font-size: 45px;
       font-weight: 700;
@@ -16,7 +29,6 @@
     line-height: 1.5em;
     margin: 14px auto 30px auto;
     text-align: center;
-    width: 56%;
   }
 
 .project a {
@@ -31,7 +43,6 @@
   .logo-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
   }
   .git-logo {
     max-width: 30%;
@@ -193,10 +204,12 @@
       font-size: 7px;
     }
     .project {
-      margin-top: -50px;
+      margin-top: -150px;
+      margin-bottom: 70px;
 
       .project-box {
         margin: 0 0 0 0 ;
+        margin-bottom: 45px;
         display: flex;
         justify-content: center;
 

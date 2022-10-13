@@ -21,6 +21,13 @@ const url6 = "https://github.com/RenSormani/morseCodeTraslator";
 const url8 = "https://github.com/RenSormani/";
 const url10 = "https://github.com/RenSormani?tab=repositories";
 
+const urlBrew = "https://rensormani.github.io/brewdog-app/";
+const urlElec = "https://rensormani.github.io/jrd-electrical-ltd/";
+const urlSnake = "https://rensormani.github.io/snake/";
+const urlAlien = "https://rensormani.github.io/hostile-aliens/";
+const urlWordle = "https://rensormani.github.io/wordle-clone/";
+const urlMorse = "https://rensormani.github.io/morseCodeTraslator/";
+
 export const Projects = () => {
   const projects = [
     {
@@ -28,30 +35,35 @@ export const Projects = () => {
       description: "This React app allows you to search the entire back catalogue of Brewdog beers thanks to some nifty API manipulation.",
       imgUrl: projImg1,
       url: url1,
+      urlExtra: urlBrew,
     },
     {
       title: "JRD Electrical Ltd",
       description: "Commissioned by JRD Electrical Ltd to redesign their website. React, JavaScript and Sass were the order of the day!",
       imgUrl: projImg4,
       url: url2,
+      urlExtra: urlElec,
     },
     {
       title: "It'sssssssss Snake!",
       description: "Remember Snake on the Nokia 3310? Well I redesigned it using CSS, (minimal) HTML and JavaScript. Game on!",
       imgUrl: projImg2,
       url: url3,
+      urlExtra: urlSnake,
     },
     {
       title: "Hostile Aliens v2",
       description: "An interesting desktop version of Space Invaders created with all my JavaScript and Sass know-how. The invasion has begun!",
       imgUrl: projImg3,
       url: url4,
+      urlExtra: urlAlien,
     },
     {
       title: "Oh My Word",
       description: "What's that? A full-on clone of Wordle - the most popular word-based game around? As the kids would say: word!",
       imgUrl: projImg5,
       url: url5,
+      urlExtra: urlWordle,
     },
     // {
     //   title: "Calculate This...",
@@ -64,10 +76,11 @@ export const Projects = () => {
       description: "We love code. Even Morse Code. This little snazzy Morse Coder uses JavaScript to handle all the heavy lifting. ",
       imgUrl: projImg6,
       url: url6,
+      urlExtra: urlMorse,
     },
   ];
 
-  const projects2 = [
+  const projects3 = [
     
     {
       title: "My GitHub Page...",
@@ -78,7 +91,7 @@ export const Projects = () => {
    
   ];
 
-  const projects3 = [
+  const projects2 = [
     {
       title: "The Ice Is Right!",
       description: "I am currently working on a website for a new icecream parlour in the area called Sorella's. Watch this space...",
@@ -99,25 +112,23 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>My Work</h2>
                   <div className="project-box">
+                  <h2>My Work</h2>
                     <p>
-                      What's a portfolio without a few examples of work? Well,
+                      What's a portfolio without a few examples of your work? Well,
                       not a portfolio for one. So, without further ado, I
-                      present to you some of my recent projects. Click on the
-                      desired project title and get zoomed to its GitHub
-                      page to see the project in full. Alternatively, click the
-                      arrow to go to my GitHub page and see all my work.
+                      present to you some of my recent projects. Click the arrow when you hover over each image to zoom over to the desired
+                      project's page. Alternatively click on the project title and you will get whisked to its GitHub
+                      page, so you can check out the project's code in all its wonderful glory.
                     </p>
-                  </div>
-                  <div className="logo-container">
-
+                    <div className="logo-container">
                   <button>
-                  <a href="https://github.com/RenSormani" target="_blank">
+                  <a href="https://github.com/RenSormani" target="_blank" rel="noreferrer">
                         {" "}
                       To my GitHub <ArrowRightCircle size={30} />
                     </a>
                   </button>
+                  </div>
                   </div>
 
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -130,10 +141,10 @@ export const Projects = () => {
                         <Nav.Link eventKey="first">PROJECTS</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">MORE PROJECTS</Nav.Link>
+                        <Nav.Link eventKey="second">IN PROGRESS</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">IN PROGRESS...</Nav.Link>
+                        <Nav.Link eventKey="third">TO THE CODE...</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content

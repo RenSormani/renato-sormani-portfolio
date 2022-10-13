@@ -52,15 +52,6 @@ export const NavBar = () => {
                 Home
               </Nav.Link>
               <Nav.Link
-                href="#skills"
-                className={
-                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("skills")}
-              >
-                Experience
-              </Nav.Link>
-              <Nav.Link
                 href="#projects"
                 className={
                   activeLink === "projects"
@@ -71,24 +62,36 @@ export const NavBar = () => {
               >
                 Projects
               </Nav.Link>
+              <Nav.Link
+                href="#skills"
+                className={
+                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("skills")}
+              >
+                Experience
+              </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a
                   href="https://www.linkedin.com/in/renato-sormani-87a56b68"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={navIcon1} alt="" />
                 </a>
                 <a
                   href="https://www.facebook.com/renato.sormani"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={navIcon2} alt="" />
                 </a>
                 <a
                   href="https://www.instagram.com/renato.sormani.1979/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={navIcon3} alt="" />
                 </a>

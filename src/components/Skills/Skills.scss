@@ -6,6 +6,8 @@
     color: rgb(223, 223, 223);
   }
   .skill-box {
+    display: flex;
+    flex-direction: column;
     background: #4f4f4ffd;
     border-radius: 64px;
     text-align: center;
