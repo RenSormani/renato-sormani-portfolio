@@ -87,6 +87,7 @@ export const Projects = () => {
       description: "Head over to my GitHub for even more projects, including ticket trackers, games and my original portfolio made from HTML and CSS.",
       imgUrl: projImg8,
       url: url8,
+      urlExtra: url8,
     },
    
   ];
@@ -97,6 +98,7 @@ export const Projects = () => {
       description: "I am currently working on a website for a new icecream parlour in the area called Sorella's. Watch this space...",
       imgUrl: projImg10,
       url: url10,
+      urlExtra: url8,
     },
   ];
 

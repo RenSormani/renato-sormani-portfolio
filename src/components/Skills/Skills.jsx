@@ -48,7 +48,7 @@ const Skills = () => {
                 <p>
                 <div className='development-row'>
                 
-                  <a href="https://drive.google.com/file/d/1BucIfl5rskdq-A3LmemUq8-t3XVDSZ-_/view?usp=sharing" target="_blank">
+                  <a href="https://drive.google.com/file/d/1vzUH6eWGevYvpGcKEdE2SGJzIwpBZyM8/view?usp=sharing" target="_blank">
                         {" "}
                       To my CV <ArrowRightCircle size={30} />
                     </a>
